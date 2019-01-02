@@ -1,0 +1,54 @@
+Implementation of data structures and algorithms
+Fall 2018
+Short Project 10: DFS, Divide and conquer algorithms
+Thu, Nov 1, 2018
+
+Version 1.0: Initial description (Thu, Nov 1).
+
+Due: 11:59 PM, Sun, Nov 11.
+
+Submission procedure: same as usual.
+
+Team task:
+
+1. Implement the algorithm to find strongly connected components of a directed graph.
+   Add the method to your DFS class from SP8.  Make changes so that all methods share
+   as much of the code as possible.
+
+   public static DFS stronglyConnectedComponents(Graph g) { ... }
+
+
+Optional tasks (individual):
+
+2. Compare the performance of the two versions of partition discussed in class
+   on the running time of Quick sort, on arrays with distinct elements.
+   Try arrays that are randomly ordered (by shuffle) and arrays in
+   descending order.
+
+3. Implement dual-pivot quick sort.  Like in merge sort, use a threshold (17, say)
+   and stop the recursion when the array size goes below that threshold.
+   Call insertion sort, just once, at the end of the algorithm:
+
+   void quickSort(A):
+        quickSort(A, 0, A.length-1)
+        insertionSort(A, 0, A.length-1)
+
+   Compare its performance with merge sort (take 3).  Use arrays with distinct values
+   and arrays with duplicates.
+
+4. Reorder an int array A[] by moving negative elements to the front,
+   followed by its positive elements.  The relative order of positive numbers
+   must be the same as in the given array.  Similarly, the relative order of
+   its negative numbers should also be retained.  Write an algorithm that
+   runs in O(nlogn), and uses only O(1) extra space (for variables),
+   but can use O(log n) space for recursion.
+
+   void rearrangeMinusPlus(int[] arr) { ... }
+
+5. Given an array of n distinct integers, in sorted order, starting
+   at 1 and ending with n+k, find the k missing numbers in the sequence. 
+   Your algorithm should run in O(k log(n)) time.  Note that a simple
+   linear scan of the array can find the answer, but it will not meet
+   the requirement on the running time.
+
+   int[] missing(int[] arr) { ... } // Value of k can be deduced from the last element of the array and arr.length.
