@@ -1,11 +1,4 @@
-// change to your netid
 package rsn170330.sp10;
-
-/**
- * Graphs: DFS: Strongly Connected Components - Short Project 10.
- * Course: CS 5V81.001: Implementation of Data Structures and Algorithms
- * @author Rahul Nalawade (rsn170330)
- */
 
 import rbk.Graph;
 import rbk.Graph.Vertex;
@@ -16,14 +9,20 @@ import rbk.Graph.Factory;
 import java.io.File;
 import java.util.List;
 import java.util.Queue;
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Scanner;
 
 /**
- * Team task: 
- * 1. Implement the algorithm to find strongly connected components of a directed graph. 
- * Add the method to your DFS class from SP8.  Make changes so that all methods share 
+ * Graphs: DFS: Strongly Connected Components - Short Project 10.
+ * Course: CS 5V81.001: Implementation of Data Structures and Algorithms
+ * @author Rahul Nalawade (rsn170330)
+ * 
+ * Date: Nov 11, 2018
+ */
+
+/**
+ * Implement the algorithm to find strongly connected components of a directed graph. 
+ * Add the method to your DFS class from SP8. Make changes so that all methods share 
  * as much of the code as possible. 
  * 
  * public static DFS stronglyConnectedComponents(Graph g) { ... }
