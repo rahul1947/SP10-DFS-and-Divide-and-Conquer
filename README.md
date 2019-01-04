@@ -16,7 +16,7 @@
 _______________________________________________________________________________
 ### Problems:
 
-#### Team Task - Depth First Search: 
+#### A. Team Task - Depth First Search: 
 
 **Problem 1.** 
    Implement the algorithm to find strongly connected components of a directed graph.
@@ -29,7 +29,7 @@ _______________________________________________________________________________
 **Solution:** [DFS.java](https://github.com/rahul1947/SP10-DFS-and-Divide-and-Conquer/blob/master/DFS.java)
 
 
-#### Optional Task (individual) - Divide and Conquer: 
+#### B. Optional Task (individual) - Divide and Conquer: 
 
 **Problem 2.**
    Compare the performance of the two versions of partition discussed in class
