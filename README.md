@@ -1,4 +1,4 @@
-# Short Project SP10: DFS and Divide and Conquer
+## Short Project SP10: DFS and Divide and Conquer
 1. Implementation of DFS - strongly connected components on a Directed Graph, 
    using same Object Oriented approach from SP08. 
 2. Implementation of two versions of partition algorithms of Quick Sort and 
@@ -7,14 +7,14 @@
 4. Problem: void rearrageMinusPlus(int[] A)
 5. Problem: int[] findKMissing(int[] A)
 
-### Author
+#### Author
 * [Rahul Nalawade](https://github.com/rahul1947)
 
-### Date
-* Nov 01-11, 2018
+#### Date
+* Nov 11, 2018
 
 _______________________________________________________________________________
-## Problems:
+### Problems:
 
 #### Team Task - Depth First Search: 
 
