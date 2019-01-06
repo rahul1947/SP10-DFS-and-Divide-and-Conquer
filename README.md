@@ -27,7 +27,37 @@ _______________________________________________________________________________
 ```
 
 **Solution:** [DFS.java](https://github.com/rahul1947/SP10-DFS-and-Divide-and-Conquer/blob/master/DFS.java)
+```
+EXPECTED OUTPUT SP10 - STRONGLY CONNECTED COMPONENTS: 
+____________________________________________________________
+Graph: n: 11, m: 17, directed: true, Edge weights: false
+1 :  (1,11)
+2 :  (2,3) (2,7)
+3 :  (3,10)
+4 :  (4,1) (4,9)
+5 :  (5,4) (5,7) (5,8)
+6 :  (6,3)
+7 :  (7,8)
+8 :  (8,2)
+9 :  (9,11)
+10 :  (10,6)
+11 :  (11,3) (11,4) (11,6)
+____________________________________________________________
+Number of components: 4
+u	cno
+1	3
+2	2
+3	4
+4	3
+5	1
+6	4
+7	2
+8	2
+9	3
+10	4
+11	3
 
+```
 
 #### B. Optional Task (individual) - Divide and Conquer: 
 
