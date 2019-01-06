@@ -11,7 +11,7 @@
 * [Rahul Nalawade](https://github.com/rahul1947)
 
 #### Date
-* Nov 11, 2018
+* November 11, 2018
 
 _______________________________________________________________________________
 ### Problems:
@@ -28,6 +28,7 @@ _______________________________________________________________________________
 
 **Solution:** [DFS.java](https://github.com/rahul1947/SP10-DFS-and-Divide-and-Conquer/blob/master/DFS.java)
 ```
+Sample Output: 
 # SP10 - STRONGLY CONNECTED COMPONENTS: 
 ____________________________________________________________
 Graph: n: 11, m: 17, directed: true, Edge weights: false
