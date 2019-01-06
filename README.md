@@ -28,7 +28,7 @@ _______________________________________________________________________________
 
 **Solution:** [DFS.java](https://github.com/rahul1947/SP10-DFS-and-Divide-and-Conquer/blob/master/DFS.java)
 ```
-EXPECTED OUTPUT SP10 - STRONGLY CONNECTED COMPONENTS: 
+# SP10 - STRONGLY CONNECTED COMPONENTS: 
 ____________________________________________________________
 Graph: n: 11, m: 17, directed: true, Edge weights: false
 1 :  (1,11)
@@ -43,7 +43,7 @@ Graph: n: 11, m: 17, directed: true, Edge weights: false
 10 :  (10,6)
 11 :  (11,3) (11,4) (11,6)
 ____________________________________________________________
-Number of components: 4
+Number of strongly connected components: 4
 u	cno
 1	3
 2	2
@@ -57,6 +57,38 @@ u	cno
 10	4
 11	3
 
+# SP08 - CONNECTED COMPONENTS AND TOPOLOGICAL ORDERINGS: 
+____________________________________________________________
+Graph: n: 10, m: 12, directed: true, Edge weights: false
+1 :  (1,3) (1,8)
+2 :  (2,4)
+3 :  (3,2)
+4 :  (4,7)
+5 :  (5,10) (5,4)
+6 :  (6,8) (6,10)
+7 : 
+8 :  (8,2) (8,5)
+9 : 
+10 :  (10,9)
+____________________________________________________________
+Number of connected components: 2
+u	cno
+1	1
+2	1
+3	1
+4	1
+5	1
+6	2
+7	1
+8	1
+9	1
+10	1
+
+Topological Ordering 1: 
+6 1 8 5 10 9 3 2 4 7 
+
+Topological Ordering 2: 
+1 6 3 8 2 5 10 4 9 7 
 ```
 
 #### B. Optional Task (individual) - Divide and Conquer: 
